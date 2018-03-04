@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+}
+li {
+list-style-type: none;
+}
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+      
+    animation: change 5s linear infinite alternate;
+}
+
+@keyframes change{
+    0%{
+        background-color: red;
+        transform: translate(0px, 0px)
+    }
+    25%{
+        background-color: rgb(39, 214, 162);
+        transform: translate(100px, 100px)
+    }
+    50%{
+        background-color: rgb(222, 247, 80);
+        transform: translate(200px, 0px)
+    }
+    75%{
+        background-color: rgb(0, 204, 255);
+        transform: translate(300px, 100px)
+    }
+    100%{
+        background-color: rgb(255, 0, 242);
+        transform: translate(500px, 0px)
+    }
+} */
+
+div[class^="color"]{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: rotate 4s ease-in-out infinite;
+    background: green;
+}
+div[class^="color"].color2{
+    animation-delay: 1s;
+}
+div[class^="color"].color3{
+    animation-delay: 2s;
+}
+div[class^="color"].color4{
+    animation-delay: 3s;
+}
+
+@keyframes rotate{
+    0%{
+        background-color: green;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    25%{
+        background-color: rgb(255, 246, 119);
+        transform: translate(400px, 0px) rotate(90deg);
+    }
+    50%{
+        background-color: rgb(14, 18, 253);
+        transform: translate(400px, 400px) rotate(180deg);
+    }
+    75%{
+        background-color: rgb(105, 73, 167);
+        transform: translate(0px, 400px) rotate(270deg);
+    }
+    100%{
+        background-color: rgb(87, 37, 66);
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+}
