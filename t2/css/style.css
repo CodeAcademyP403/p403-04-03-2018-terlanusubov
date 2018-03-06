@@ -1,0 +1,207 @@
+ /* START MAY DEFAULTS* { */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.clearfix {
+    clear: both;
+}
+/* END MY DEAULTS */
+
+/* START MY NAVIGATION AND TOP PARTS OF PAGE */
+body {
+    background-image: url("../images/forest.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    width:90%;
+    height:1100px;
+    margin:50px auto;
+    position: relative;
+    /* border-radius: 20px; */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+.main nav {
+    width:80%;
+    height:60px;
+    margin:auto;
+    padding-top:15px;
+    background-color: white;
+    margin-bottom:50px;
+}
+.main h1 {
+    color:rgb(46, 44, 44);
+    font-size:3em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.main p{
+    margin-bottom:40px;
+    text-align: center;
+    font-size: 1em;
+    color:rgb(29, 28, 28);
+    font-family: 'Open Sans', sans-serif;
+}
+nav li {
+    float:left;
+}
+nav li a {
+    font-family: 'Open Sans', sans-serif;
+    margin-left:60px;
+    color:black;
+    font-weight:bold;
+    font-size:1.1   em;
+    
+}
+nav li a:hover {
+    font-family: 'Open Sans', sans-serif;
+    margin-left:60px;
+    color:orange;
+    font-weight:bold;
+    transition: all 0.3s ease-in-out;
+}
+
+/* END OF MY NAV AND TOP PART */
+
+
+/* START SECTION 1 */
+.container {
+    width:50%;
+    height:300px;
+    margin-left:10%;
+    float: left;
+    background-image: url("../images/freedom.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+  
+
+}
+.container2 {
+    width:30%;
+    height:300px;
+    float:left;
+    padding-left:50px;
+    position: relative; 
+    background-color: white;
+}
+.container2 h1 {
+    color:black;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:30px;
+    text-align: left;
+}
+.container2 p {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-right:50px;
+    display: inline; 
+}
+.container2 button {
+    background-color: aqua;
+    color: white;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    display: inherit;
+    outline: none;
+    border-color: aqua;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    width:100px;
+    height:50px;
+    cursor: pointer;
+}
+/* END OF SECTION 1 */
+
+/* START SECTION 2 */
+.container3 {
+    width:80%;
+    height:400px;
+    margin:50px auto;   
+}
+.container3 div {
+   width:45%;
+   height:400px;
+   float:left;
+   padding-top:100px;
+}
+.container3 .right {
+    margin-left:96px;
+    background-image: url("../images/way.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3 .left {
+    background-image: url("../images/way2.jpeg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.container3 .left h1 {
+    font-size: 2em;
+    color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:20px;
+}
+.container3 .left h5 {
+    color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top:10px;
+}
+.container3 .left  hr {
+    background-color:white;
+    width:20%;
+    height:2.5px;
+    border-radius:10px;
+    text-align: center;
+    margin:auto;
+}
+.container3 .right h1 {
+    font-size: 2em;
+    color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:20px;
+}
+.container3 .right hr {
+    background-color:white;
+    width:20%;
+    height:2.5px;
+    border-radius:10px;
+    text-align: center;
+    margin:auto;
+}
+.container3 .right h5 {
+    color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top:10px;
+}
+
+
+
