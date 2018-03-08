@@ -165,11 +165,13 @@ nav li a:hover {
 }
 .container3 .left h5 {
     color:white;
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
     word-spacing: 5px;
     letter-spacing: 2px;
     margin-top:10px;
+    font-weight: bold;
+    
 }
 .container3 .left  hr {
     background-color:white;
@@ -177,7 +179,7 @@ nav li a:hover {
     height:2.5px;
     border-radius:10px;
     text-align: center;
-    margin:auto;
+    margin: 5px auto;
 }
 .container3 .right h1 {
     font-size: 2em;
@@ -192,15 +194,20 @@ nav li a:hover {
     height:2.5px;
     border-radius:10px;
     text-align: center;
-    margin:auto;
+    margin:5px auto;
 }
 .container3 .right h5 {
     color:white;
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
     word-spacing: 5px;
     letter-spacing: 2px;
     margin-top:10px;
+    font-weight: bold;
+}
+.container3  i {
+    display:inline-block;
+    margin-left:50px;
 }
 
 
